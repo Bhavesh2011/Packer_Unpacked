@@ -37,7 +37,7 @@ class MarvellousPacker
                             //Create a packed file
                             boolean bRet = Packedobj.createNewFile();
 
-                            if(bRet = false)
+                            if(bRet == false)
                             {
                                 System.out.println("Unable to create file");
                                 return;
